@@ -579,7 +579,7 @@
         {
             code: 'Л30',
             name: 'Низковольтная линия',
-            room: '--',
+            room: 'Коридор взрослый',
             cable: 'ВВГнг-LS 3х1.5',
             points: [
                 {
@@ -1491,7 +1491,7 @@
         {
             code: 'Л79',
             name: 'Низковольтная линия',
-            room: '--',
+            room: 'Коридор детский',
             cable: 'ВВГнг-LS 3х1.5',
             points: [
                 {
@@ -2084,7 +2084,7 @@
             code: 'Л1115',
             name: 'Кондиционер (слаботочная линия)',
             room: 'Спальня',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л1115-1',
@@ -2100,7 +2100,7 @@
             code: 'Л1116',
             name: 'Выключатель у зеркала',
             room: 'Спальня',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л116-1',
@@ -2116,7 +2116,7 @@
             code: 'Л117',
             name: 'Выключатель светильника над обеденный столом',
             room: 'Кухня-гостинная',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л117-1',
@@ -2132,7 +2132,7 @@
             code: 'Л118',
             name: 'Выключатель справа от двери взрослого коридора',
             room: 'Кухня-гостинная',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л118-1',
@@ -2148,7 +2148,7 @@
             code: 'Л119',
             name: 'Выключатель',
             room: 'Кабинет',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л119-1',
@@ -2164,7 +2164,7 @@
             code: 'Л120',
             name: 'Выключаль у унитаза',
             room: 'Санузел взрослый',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л120-1',
@@ -2180,7 +2180,7 @@
             code: 'Л121',
             name: 'Выключатель зеркала',
             room: 'Санузел взрослый',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л121-1',
@@ -2196,7 +2196,7 @@
             code: 'Л122',
             name: 'Утюг (слаботочная линия)',
             room: 'Кухня-гостинная',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л122-1',
@@ -2212,7 +2212,7 @@
             code: 'Л123',
             name: 'Выключатель подсветки кухни',
             room: 'Кухня-гостинная',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л123-1',
@@ -2228,7 +2228,7 @@
             code: 'Л124',
             name: 'Кухонная вытяжка (слаботочная линия)',
             room: 'Кухня-гостинная',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л124-1',
@@ -2260,7 +2260,7 @@
             code: 'Л126',
             name: 'Выключатель у входной двери',
             room: 'Прихожая',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л126-1',
@@ -2276,7 +2276,7 @@
             code: 'Л127',
             name: 'Выключатели у двери',
             room: 'Комната Марка',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л127-1',
@@ -2420,7 +2420,7 @@
             code: 'Л136',
             name: 'Выключатель у дивана',
             room: 'Кухня-гостинная',
-            cable: 'UTP 5',
+            cable: 'UTP 5E',
             points: [
                 {
                     code: 'Л136-1',
@@ -2508,7 +2508,247 @@
                 },
                 {
                     code: 'Л141-2',
-                    name: 'Коридр котельной'
+                    name: 'Коридор котельной'
+                }
+            ]
+        },
+        {
+            code: 'Л142',
+            name: 'Выключатель коридора взрослого',
+            room: 'Коридор взрослый',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л142-1',
+                    name: 'Выключатель'
+                },
+                {
+                    code: 'Л142-2',
+                    name: 'Коридор взрослый'
+                }
+            ]
+        },
+        {
+            code: 'Л143',
+            name: 'Выключатель (в дверном откосе) котельной',
+            room: 'Котельная',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л143-1',
+                    name: 'Выключатель'
+                },
+                {
+                    code: 'Л143-2',
+                    name: 'Коридор котельной'
+                }
+            ]
+        },
+        {
+            code: 'Л144',
+            name: 'Выключатель коридор котельной',
+            room: 'Коридор котельной',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л144-1',
+                    name: 'Выключатель'
+                },
+                {
+                    code: 'Л144-2',
+                    name: 'Коридор котельной'
+                }
+            ]
+        },
+        {
+            code: 'Л145',
+            name: 'Выключатель прихожей у межкомнатной двери',
+            room: 'Прихожая',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л145-1',
+                    name: 'Выключатель'
+                },
+                {
+                    code: 'Л145-2',
+                    name: 'Коридор котельной'
+                }
+            ]
+        },
+        {
+            code: 'Л146',
+            name: 'Пульт пожарной сигнализации',
+            room: 'Прихожая',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л146-1',
+                    name: 'Пульт'
+                },
+                {
+                    code: 'Л146-2',
+                    name: 'Коридор котельной'
+                }
+            ]
+        },
+        {
+            code: 'Л147',
+            name: 'Выключатель коридор детский',
+            room: 'Коридор детский',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л147-1',
+                    name: 'Выключатель'
+                },
+                {
+                    code: 'Л147-2',
+                    name: 'Коридор детский'
+                }
+            ]
+        },
+        {
+            code: 'Л148',
+            name: 'Сушильный шкаф (слаботочная линия)',
+            room: 'Котельная',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л148-1',
+                    name: 'Сушильный шкаф'
+                },
+                {
+                    code: 'Л148-2',
+                    name: 'Коридор котельной'
+                }
+            ]
+        },
+        {
+            code: 'Л149',
+            name: 'Выключатель у двери',
+            room: 'Комната Мии',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л149-1',
+                    name: 'Выключатель'
+                },
+                {
+                    code: 'Л149-2',
+                    name: 'Коридор детский'
+                }
+            ]
+        },
+        {
+            code: 'Л150',
+            name: 'Выключатель у зеркала',
+            room: 'Санузел детский',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л150-1',
+                    name: 'Выключатель'
+                },
+                {
+                    code: 'Л150-2',
+                    name: 'Коридор детский'
+                }
+            ]
+        },
+        {
+            code: 'Л151',
+            name: 'Выключаетль у двери',
+            room: 'Санузел детский',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л151-1',
+                    name: 'Выключатель'
+                },
+                {
+                    code: 'Л151-2',
+                    name: 'Коридор детский'
+                }
+            ]
+        },
+        {
+            code: 'Л152',
+            name: 'Кондиционер (слаботочная линия)',
+            room: 'Комната Марка',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л152-1',
+                    name: 'Кондиционер'
+                },
+                {
+                    code: 'Л152-2',
+                    name: 'Коридор детский'
+                }
+            ]
+        },
+        {
+            code: 'Л153',
+            name: 'Кондиционер (слаботочная линия)',
+            room: 'Комната Мии',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л153-1',
+                    name: 'Кондиционер'
+                },
+                {
+                    code: 'Л153-2',
+                    name: 'Коридор детский'
+                }
+            ]
+        },
+        {
+            code: 'Л154',
+            name: 'Кондиционер (слаботочная линия)',
+            room: 'Кухня-гостинная',
+            cable: 'UTP 5E',
+            points: [
+                {
+                    code: 'Л154-1',
+                    name: 'Кондиционер'
+                },
+                {
+                    code: 'Л154-2',
+                    name: 'Коридор взрослый'
+                }
+            ]
+        },
+        {
+            code: 'Л155',
+            name: 'Датчик протечки кухонной мойки',
+            room: 'Кухня-гостинная',
+            cable: 'КПСнг-FRHF 1x2x0,75',
+            points: [
+                {
+                    code: 'Л155-1',
+                    name: 'Шкаф под мойкой'
+                },
+                {
+                    code: 'Л155-2',
+                    name: 'Коридор котельной'
+                }
+            ]
+        },
+        {
+            code: 'Л156',
+            name: 'Датчик протечки посудомоечной машины',
+            room: 'Кухня-гостинная',
+            cable: 'КПСнг-FRHF 1x2x0,75',
+            points: [
+                {
+                    code: 'Л156-1',
+                    name: 'Посудомоечная машина'
+                },
+                {
+                    code: 'Л156-2',
+                    name: 'Коридор котельной'
                 }
             ]
         },
@@ -2519,10 +2759,21 @@
         }
         return acc
     }, [])
+    rooms.sort()
+
+    const cables = cableLines.reduce((acc: string[], item) => {
+        if (!acc.includes(item.cable)) {
+            acc.push(item.cable)
+        }
+        return acc
+    }, [])
+    cables.sort()
+
     let filteredCableLines = [...cableLines]
 
     let query = ''
     let room = ''
+    let cable = ''
     function search() {
         if (query) {
             const normalizedQuery = query.toLowerCase()
@@ -2546,6 +2797,10 @@
         if (room) {
             filteredCableLines = filteredCableLines.filter((line) => room === line.room)
         }
+
+        if (cable) {
+            filteredCableLines = filteredCableLines.filter((line) => cable === line.cable)
+        }
     }
 
     function isHighlight(point:any) {
@@ -2561,6 +2816,11 @@
         <select bind:value={ room } on:change={search}>
             {#each rooms as room}
                 <option>{ room }</option>
+            {/each}
+        </select>
+        <select bind:value={ cable } on:change={search}>
+            {#each cables as cable}
+                <option>{ cable }</option>
             {/each}
         </select>
     </div>
